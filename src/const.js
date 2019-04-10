@@ -1,0 +1,32 @@
+export const plans = [
+  {
+    title: 'Basic Plan',
+    specific: "This is Photoshop's version",
+    price: '30',
+    titleScore: 'Number of downloads',
+    numberScore: '30',
+    numberScoreVideo: 'YES',
+    numberScoreSystem: 'ANDROID',
+    buttonName: 'Select Plan',
+  },
+  {
+    title: 'Pro Plan',
+    specific: "This is Photoshop's version",
+    price: '99',
+    titleScore: 'Number of downloads',
+    numberScore: '30',
+    numberScoreVideo: 'YES',
+    numberScoreSystem: 'ANDROID',
+    buttonName: 'Select Plan',
+  },
+  {
+    title: 'Premium Plan',
+    specific: "This is Photoshop's version",
+    price: '120',
+    titleScore: 'Number of downloads',
+    numberScore: '30',
+    numberScoreVideo: 'YES',
+    numberScoreSystem: 'ANDROID',
+    buttonName: 'Select Plan',
+  },
+]
