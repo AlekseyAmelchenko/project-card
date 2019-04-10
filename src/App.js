@@ -1,12 +1,11 @@
 import React, { Component } from 'react'
-
-// так теперь тоже работает, потому что мы импортируем конкретную константу
-// с именем ProjectCard
-import { ProjectCard } from './ProjectCard'
+import { plans } from './const'
+import { PricePlan, PricePlanContainer } from './PricePlan'
+import { priceTableTheme } from './themes'
 
 class App extends Component {
   render() {
-    return <ProjectCard />
+    return <PricePlanContainer plans={plans} theme={priceTableTheme} />
   }
 }
 
